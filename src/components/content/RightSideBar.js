@@ -1,7 +1,11 @@
 import "../../styles/rightSideBar.css";
 
 function RightSideBar() {
-  return <div className="rightSideBar">Right</div>;
+  return (
+    <section className="container">
+      <div>Right</div>
+    </section>
+  );
 }
 
 export default RightSideBar;

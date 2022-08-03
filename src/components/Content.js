@@ -6,11 +6,11 @@ import "../styles/content.css";
 
 function Content() {
   return (
-    <div className="content">
+    <section className="container">
       <LeftSideBar />
       <Main />
       <RightSideBar />
-    </div>
+    </section>
   );
 }
 

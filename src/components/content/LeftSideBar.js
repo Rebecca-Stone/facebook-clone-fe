@@ -1,7 +1,11 @@
 import "../../styles/leftSideBar.css";
 
 function LeftSideBar() {
-  return <div className="leftSideBar">Left</div>;
+  return (
+    <section className="container">
+      <div>Left</div>
+    </section>
+  );
 }
 
 export default LeftSideBar;
